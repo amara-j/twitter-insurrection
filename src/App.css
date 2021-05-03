@@ -1,0 +1,166 @@
+.TimeTravel {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr 650px 1fr;
+  row-gap: 10px;
+}
+
+.progressBar {
+  grid-column: 1/4;
+}
+
+.dateTimeButtonContainer {
+  grid-column: 1/4;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 50px;
+  font-size: 45px;
+}
+
+.dateDiv {
+  margin: 20px 20px 20px 20px;
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.backButton {
+  margin: 20px 0px 20px 0px;
+  grid-column: 1;
+  grid-row: 1;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: none;
+}
+
+.forwardButton {
+  margin: 20px 0px 20px 0px;
+  grid-column: 4;
+  grid-row: 1;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: none;
+}
+
+.randomTweetContainer {
+  grid-row: 3;
+  grid-column: 1;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tweet {
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+  text-overflow: ellipsis;
+  width: 100%;
+  margin: 0px 0px 5px 0px;
+}
+
+.randomizeTweetButton {
+  margin: 10px 0px 0px 10px;
+  grid-row: 1;
+  grid-column: 1/4;
+  background-color: #5fa8d3;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.randomTweetUser {
+  margin: 0px 0px 10px 10px;
+  grid-row: 2;
+  grid-column: 1/4;
+  text-overflow: ellipsis;
+  color: #202020;
+}
+
+.hideShowBio {
+  grid-row: 2;
+  grid-column: 3;
+  border-width: 0px;
+  justify-self: end;
+  background-color: white;
+  color: #202020;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.randomTweetBio {
+  grid-row: 3;
+  grid-column: 1/4;
+  justify-items: start;
+  text-overflow: ellipsis;
+  color: gray;
+  width: 95%;
+}
+
+.mentions {
+  grid-row: 4;
+  grid-column: 1/4;
+  justify-items: start;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-style: italic;
+}
+
+.randomTweetBody {
+  grid-row: 5;
+  width: 100%;
+  grid-column: 1/4;
+  justify-items: start;
+  text-overflow: ellipsis;
+  color: #181818;
+  width: 95%;
+  margin: 0px 0px 10px 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.userName {
+  font-weight: bold;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.graph {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.trendContainer {
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.trend {
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.trendTitle {
+  font-size: 20px;
+  font-weight: bold;
+  width: 95%;
+  margin: 10px 0px 10px 10px;
+}
+
+.trendList {
+  font-size: 20px;
+  justify-items: center;
+  width: 90%;
+  margin: 10px 0px 10px 10px;
+}
