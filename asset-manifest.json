@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/twitter-insurrection/static/css/main.136248ae.chunk.css",
+    "main.js": "/twitter-insurrection/static/js/main.7528a3dd.chunk.js",
+    "main.js.map": "/twitter-insurrection/static/js/main.7528a3dd.chunk.js.map",
+    "runtime-main.js": "/twitter-insurrection/static/js/runtime-main.38be15fe.js",
+    "runtime-main.js.map": "/twitter-insurrection/static/js/runtime-main.38be15fe.js.map",
+    "static/js/2.5dfba415.chunk.js": "/twitter-insurrection/static/js/2.5dfba415.chunk.js",
+    "static/js/2.5dfba415.chunk.js.map": "/twitter-insurrection/static/js/2.5dfba415.chunk.js.map",
+    "static/js/3.c844743d.chunk.js": "/twitter-insurrection/static/js/3.c844743d.chunk.js",
+    "static/js/3.c844743d.chunk.js.map": "/twitter-insurrection/static/js/3.c844743d.chunk.js.map",
+    "index.html": "/twitter-insurrection/index.html",
+    "static/css/main.136248ae.chunk.css.map": "/twitter-insurrection/static/css/main.136248ae.chunk.css.map",
+    "static/js/2.5dfba415.chunk.js.LICENSE.txt": "/twitter-insurrection/static/js/2.5dfba415.chunk.js.LICENSE.txt",
+    "static/media/BackArrow.ca5513f3.svg": "/twitter-insurrection/static/media/BackArrow.ca5513f3.svg",
+    "static/media/BackArrowGray.573f0e07.svg": "/twitter-insurrection/static/media/BackArrowGray.573f0e07.svg",
+    "static/media/ForwardArrow.5a188501.svg": "/twitter-insurrection/static/media/ForwardArrow.5a188501.svg",
+    "static/media/ForwardArrowGray.75ec8160.svg": "/twitter-insurrection/static/media/ForwardArrowGray.75ec8160.svg",
+    "static/media/refresh.1b4dc416.svg": "/twitter-insurrection/static/media/refresh.1b4dc416.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38be15fe.js",
+    "static/js/2.5dfba415.chunk.js",
+    "static/css/main.136248ae.chunk.css",
+    "static/js/main.7528a3dd.chunk.js"
+  ]
+}
